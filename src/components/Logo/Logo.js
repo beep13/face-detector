@@ -1,15 +1,15 @@
 import React from 'react';
 import Tilt from 'react-parallax-tilt';
+import logo from './logo.jpg'
+import './Logo.css';
 
 const Logo = () => {
   return (
-    <div className='ma4'>
-    <Tilt className='br2 shadow-4' style={{ height: '100px', width:'100px'}}>
+    <Tilt className='logo br2 ma4 shadow-4' style={{ height: '100px', width:'100px'}}>
       <div>
-        <h1>R</h1>
+        <img alt="logo" src={logo}/>
       </div>
     </Tilt>
-    </div>
   )
 }
 
